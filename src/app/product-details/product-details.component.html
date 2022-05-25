@@ -1,0 +1,6 @@
+<section class="section__details" *ngIf="product">
+    <span class="product__title">{{product.title}}</span>
+    <p class="product__price">Price: {{product.price}}</p>
+    <p class="product__description" *ngIf="product.description"><b>Description:</b> {{product.description}}</p>
+    <button (click)="addToCart(product)" class="product__buy-btn">Buy</button>
+</section>

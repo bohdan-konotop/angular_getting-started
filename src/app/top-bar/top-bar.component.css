@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 60px;
+  background: #002119;
+}
+.header__logo, .header__btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header__btn {
+  padding-right: 15px;
+}
+.header__btn > button {
+  height: 32px;
+  font-size: 15px;
+  background: transparent;
+  border: 2px solid #00d7a1;
+  color: #00d7a1;
+  transition: 0.1s;
+}
+.header__btn > button:hover {
+  border: 2px solid #00a47c;
+  color: #00a47c;
+}
+.header__btn > button:active {
+  border: 2px solid #00a47c;
+  color: #c2ffed;
+  background: #00a47c;
+}
+.header__logo > a {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 600;
+  margin: 0 15px;
+  text-decoration: none;
+}
+.header__logo > a:hover {
+  color: #c2ffed;
+}
+
+/*# sourceMappingURL=top-bar.component.css.map */

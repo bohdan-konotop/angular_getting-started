@@ -1,0 +1,11 @@
+<section class="section__products">
+
+  <div class="products__item" *ngFor="let product of products">
+    <a [title]="product.title" [routerLink]="['/products', product.id]" class="products__item__title">{{product.title}}</a>
+    <p class="products__item__description" *ngIf="product.description"><b>Description:</b> {{product.description}}</p>
+    <div class="products__item__btn-group">
+      <app-product-alerts [product]="product" (notify)="onNotify()"></app-product-alerts>
+      <button (click)="share()" class="products__item__btn">Share</button>
+    </div>
+  </div>
+</section>

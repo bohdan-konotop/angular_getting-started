@@ -1,0 +1,55 @@
+.cart__form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-top: 15px;
+}
+.cart__shipping-link {
+  display: block;
+  padding-top: 15px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  border: 4px solid #00d7a1;
+  padding: 15px;
+  margin-top: 15px;
+}
+.cart__form__input > label {
+  padding-top: 15px;
+  text-transform: uppercase;
+  display: block;
+}
+.cart__form__input > input {
+  background: transparent;
+  border: 2px solid #002119;
+  outline: none;
+  padding-top: 3px;
+}
+.cart__form__btn {
+  margin-top: 15px;
+  height: 32px;
+  font-size: 15px;
+  background: #00a47c;
+  border: 3px solid transparent;
+  padding: 0 10px;
+  color: #c2ffed;
+  transition: 0.1s;
+}
+.cart__form__btn:hover {
+  border: 3px solid #00a47c;
+  background: transparent;
+  color: #00a47c;
+  transition: 0.1s;
+}
+.cart__form__btn:active {
+  border: 3px solid #00a47c;
+  color: #c2ffed;
+  background: #00a47c;
+  transition: 0.1s;
+}
+
+/*# sourceMappingURL=cart.component.css.map */

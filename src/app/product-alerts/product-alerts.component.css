@@ -1,0 +1,24 @@
+.products__alert__btn {
+  margin-right: 15px;
+  height: 32px;
+  font-size: 15px;
+  background: #00a47c;
+  border: 3px solid transparent;
+  padding: 0 10px;
+  color: #c2ffed;
+  transition: 0.1s;
+}
+.products__alert__btn:hover {
+  border: 3px solid #00a47c;
+  background: transparent;
+  color: #00a47c;
+  transition: 0.1s;
+}
+.products__alert__btn:active {
+  border: 3px solid #00a47c;
+  color: #c2ffed;
+  background: #00a47c;
+  transition: 0.1s;
+}
+
+/*# sourceMappingURL=product-alerts.component.css.map */

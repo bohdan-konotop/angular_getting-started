@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 60px;
+  background: #002119;
+  &__logo, &__btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__btn {
+    padding-right: 15px;
+  }
+
+  &__btn > button {
+    height: 32px;
+    font-size: 15px;
+    background: transparent;
+    border: 2px solid #00d7a1;
+    color: #00d7a1;
+    transition: .1s;
+
+    &:hover {
+      border: 2px solid #00a47c;
+      color: #00a47c;
+    }
+
+    &:active {
+      border: 2px solid #00a47c;
+      color: #c2ffed;
+      background: #00a47c;
+    }
+  }
+
+  &__logo > a {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 600;
+    margin: 0 15px;
+    text-decoration: none;
+    &:hover {
+      color: #c2ffed;
+
+    }
+  }
+
+}
